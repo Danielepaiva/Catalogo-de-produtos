@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 15px;
+}
+
+body{
+    background: rgb(246, 221, 234);
+}
+
+h1{
+    margin-bottom: 25px;
+}
+
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+
+main {
+    background: #f3f2f3;
+    font-size: 20px;
+    padding: 1rem;
+}
+
+nav {
+    background: #000000;
+    font-size: 20px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #ecedea;
+    padding: 15px;
+}
+ 
+.produto p {
+    color: rgb(90, 89, 89);
+    padding: 5px 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+
+fieldset{
+    width: 250px;
+    height: 290px;
+    border: solid rgb(248, 210, 230);;
+}
+
+#produtos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2vw;
+}
